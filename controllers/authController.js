@@ -74,6 +74,8 @@ exports.login = async (req, res) => {
       httpOnly: true,
       secure: true,
       path: "/",
+      domain: ".onrender.com",
+      sameSite: "none",
     });
 
     return res.status(200).json({ message: "Login successful." });
