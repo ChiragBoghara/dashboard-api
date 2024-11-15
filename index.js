@@ -17,7 +17,7 @@ const {
 const PORT = process.env.PORT || 3001;
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://dashboard-frontend-w2e0.onrender.com",
   methods: ["GET", "POST"],
   credentials: true,
 };
